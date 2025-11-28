@@ -14,3 +14,7 @@ class FormatError(Exception):
 class NotFileError(Exception):
     def __init__(self, message):
         super().__init__(message)
+
+class UserExistsError(Exception):
+    def __init__(self, message):
+        super().__init__(message)
